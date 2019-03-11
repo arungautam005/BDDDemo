@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 60607099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefination.beforeMethodSetUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Welcome Screen",
+        "description": "",
+        "id": "verify-bi-non-bi-user-functionality;verify-welcome-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 2612767,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefination.afterMethodSetUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 198040671,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the app",
+            "match": {
+              "location": "CommonStepDefination.launchApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1481883759,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Tap on Plus Icon",
+            "match": {
+              "location": "BiNonBiUserFunctionality_StepDefination.TapPlusIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497354701,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify Welcome Screen",
+            "match": {
+              "location": "CommonStepDefination.verifyWelcomeScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1977689687,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Tap Setting and verify setting page displays",
+            "match": {
+              "location": "BiNonBiUserFunctionality_StepDefination.VerifySettingPageDisplays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10564324355,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tap Help and verify Help page displays",
+            "match": {
+              "location": "BiNonBiUserFunctionality_StepDefination.VerifyHelpPageDisplays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39047466478,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Fill and verify email format functionality",
+            "match": {
+              "location": "BiNonBiUserFunctionality_StepDefination.VerifyEmailFormatFunctionality()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@home"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4148104,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefination.beforeMethodSetUp(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify Welcome Screen again",
+        "description": "",
+        "id": "verify-bi-non-bi-user-functionality;verify-welcome-screen-again",
+        "after": [
+          {
+            "result": {
+              "duration": 28329560081,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefination.afterMethodSetUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111787,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Launch the app",
+            "match": {
+              "location": "CommonStepDefination.launchApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 639511859,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify Welcome Screen",
+            "match": {
+              "location": "CommonStepDefination.verifyWelcomeScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51974577005,
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:92)\n\tat org.junit.Assert.fail(Assert.java:100)\n\tat com.sephora.dmg.core.driver.SephoraDsgMobileDriver.click(SephoraDsgMobileDriver.java:153)\n\tat com.sephora.dsg.pages.WelcomePage.VerifySettingPageDisplays(WelcomePage.java:119)\n\tat stepDefination.BiNonBiUserFunctionality_StepDefination.VerifySettingPageDisplays(BiNonBiUserFunctionality_StepDefination.java:20)\n\tat ✽.Then Tap Setting and verify setting page displays(src/test/resources/FeatureFiles/BiNonBiUserFunctionality.feature:16)\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "Tap Setting and verify setting page displays",
+            "match": {
+              "location": "BiNonBiUserFunctionality_StepDefination.VerifySettingPageDisplays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Tap Help and verify Help page displays",
+            "match": {
+              "location": "BiNonBiUserFunctionality_StepDefination.VerifyHelpPageDisplays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Fill and verify email format functionality",
+            "match": {
+              "location": "BiNonBiUserFunctionality_StepDefination.VerifyEmailFormatFunctionality()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@home"
+          }
+        ]
+      }
+    ],
+    "name": "Verify BI Non-BI user functionality",
+    "description": "",
+    "id": "verify-bi-non-bi-user-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/BiNonBiUserFunctionality.feature"
+  }
+]
